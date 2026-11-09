@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# large campaign results are archived separately (see README); keep the folder
+results_v2/*.jsonl.gz
+!results_v2/P4c_numerics_mid_v21.jsonl.gz
+analysis/cache/
+manuscript_figures/output/
